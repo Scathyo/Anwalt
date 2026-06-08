@@ -495,3 +495,33 @@ nav a{
    margin-bottom:30px;
 
 }
+
+.about-btn{
+
+   display:inline-block;
+
+   margin-top:30px;
+
+   background:var(--gold);
+
+   color:white;
+
+   text-decoration:none;
+
+   padding:15px 30px;
+
+   border-radius:10px;
+
+   font-weight:600;
+
+   transition:0.3s;
+
+}
+
+.about-btn:hover{
+
+   transform:translateY(-3px);
+
+   box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
