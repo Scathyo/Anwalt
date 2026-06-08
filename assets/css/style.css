@@ -1,4 +1,6 @@
-/* Hauptstylesheet */
+/* ==========================
+   BASIS
+========================== */
 
 *{
     margin:0;
@@ -6,6 +8,160 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family: Arial, sans-serif;
+    color:#334155;
+    background:#ffffff;
+    line-height:1.6;
+}
+
+/* ==========================
+   DESIGN SYSTEM
+========================== */
+
+:root{
+
+    --navy:#0A1931;
+    --gold:#C8A15A;
+    --white:#FFFFFF;
+    --light:#F7F8FA;
+    --text:#334155;
+
+}
+
+/* ==========================
+   LAYOUT
+========================== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ==========================
+   TYPOGRAFIE
+========================== */
+
+h1,h2,h3{
+    color:var(--navy);
+}
+
+h1{
+    font-size:4rem;
+    line-height:1.1;
+}
+
+p{
+    font-size:1.1rem;
+}
+
+/* ==========================
+   NAVIGATION
+========================== */
+
+header{
+
+    background:white;
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+nav{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 0;
+
+}
+
+.logo{
+
+    font-weight:bold;
+    color:var(--navy);
+
+}
+
+nav ul{
+
+    display:flex;
+
+    gap:30px;
+
+    list-style:none;
+
+}
+
+nav a{
+
+    text-decoration:none;
+    color:var(--navy);
+
+    font-weight:600;
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    min-height:80vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    background:var(--light);
+
+    padding:80px 20px;
+
+}
+
+.hero-content{
+
+    max-width:800px;
+
+}
+
+.hero p{
+
+    margin-top:20px;
+
+}
+
+.hero a{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    background:var(--gold);
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:8px;
+
 }
