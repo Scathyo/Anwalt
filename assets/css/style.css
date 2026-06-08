@@ -441,3 +441,49 @@ nav a{
     }
 
 }
+
+/* ======================
+   ABOUT SECTION
+====================== */
+
+.about-section{
+   
+   display:grid;
+
+   grid-template-columns:1fr 2fr;
+
+   gap:60px;
+
+   align-items:center;
+
+   padding:120px 10%;
+
+}
+
+.about-image{
+
+   min-height:500px;
+
+   background:#dbe4ee;
+
+   border-radius:20px;
+
+   display:flex;
+
+   align-items:center;
+
+   justify-content:center;
+
+}
+
+.about-content h2{
+
+   margin-bottom:20px;
+
+}
+
+.about-content p{
+
+   margin-bottom:25px;
+
+}
