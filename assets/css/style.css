@@ -452,6 +452,8 @@ nav a{
 
    grid-template-columns:1fr 2fr;
 
+   background:var(--navy);
+   
    gap:60px;
 
    align-items:center;
