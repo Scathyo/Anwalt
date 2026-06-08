@@ -516,6 +516,8 @@ nav a{
 
    transition:0.3s;
 
+   align-self:center;
+   
 }
 
 .about-btn:hover{
@@ -523,5 +525,23 @@ nav a{
    transform:translateY(-3px);
 
    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.about-content ul{
+
+   list-style:none;
+
+   padding:0;
+
+   margin:35px 0;
+
+   align-self:center;
+
+}
+
+.about-content li{
+
+   maring-bottom:12px;
 
 }
