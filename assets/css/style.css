@@ -746,3 +746,73 @@ nav a{
          text-align:center;
 
 }
+
+.timeline{
+
+         max-width:700px;
+
+         margin:0 auto;
+
+         position:relative;
+
+}
+
+.timeline::before{
+
+         content:"";
+
+         position:absolute;
+
+         left:20px;
+
+         top:0;
+
+         bottom:0;
+
+         width:3px;
+
+         background:var(--navy);
+
+}
+
+.timeline-item{
+
+         position:relative;
+
+         padding-left:70px;
+
+         margin-bottom:50px;
+
+}
+
+.timeline-item::before{
+
+         content:"";
+
+         position:absolute;
+
+         left:12px;
+
+         top:6px;
+
+         width:18px;
+
+         height:18px;
+
+         border-radius:50%;
+
+         background:var(--navy);
+
+}
+
+.timeline-year{
+
+         display:block;
+
+         font-weight:700;
+
+         font-size:1.2rem;
+
+         margin-bottom:8px;
+
+}
