@@ -207,11 +207,13 @@ nav a{
 
     max-width:450px;
 
-    height:500px;
+    height:400px;
 
     border-radius:20px;
 
     overflow:hidden;
+
+    justify-self:end;
 
 }
 
