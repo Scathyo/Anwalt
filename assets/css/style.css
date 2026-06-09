@@ -560,6 +560,8 @@ nav a{
 
 .checkmark{
 
+         font-size:1.25rem;
+   
          color:var(--gold);
    
          font-weight:700;
