@@ -131,11 +131,9 @@ nav a{
 
     text-align:center;
 
-    background:var(--light);
+    background:var(--grey);
 
     padding:80px 20px;
-
-    background:var(--grey)
    
 }
 
