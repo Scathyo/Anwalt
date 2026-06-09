@@ -330,13 +330,13 @@ nav a{
 
     display:inline-block;
 
-    padding:8px 16px;
+    padding:16px 32px;
 
     background:#eef2f7;
 
     border-radius:30px;
 
-    font-size:.85rem;
+    font-size:1rem;
 
     font-weight:600;
 
