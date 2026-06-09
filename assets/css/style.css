@@ -540,8 +540,6 @@ nav a{
 
    margin:35px 0;
 
-   align-self:center;
-
 }
 
 .about-content li{
@@ -557,5 +555,15 @@ nav a{
    flex-direction:column;
 
    align-items:center;
+
+}
+
+.checkmark{
+
+         color:car(--gold);
+   
+         font-weight:700;
+
+         margin-right:10px;
 
 }
