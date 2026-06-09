@@ -560,7 +560,7 @@ nav a{
 
 .checkmark{
 
-         color:car(--gold);
+         color:var(--gold);
    
          font-weight:700;
 
