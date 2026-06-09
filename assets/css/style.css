@@ -30,7 +30,8 @@ body{
     --white:#FFFFFF;
     --light:#F7F8FA;
     --text:#334155;
-
+    --grey:#f3f5f7;
+   
 }
 
 /* ==========================
@@ -582,7 +583,7 @@ nav a{
 
          padding:120px 10%;
 
-         background:#f3f5f7;
+         background:var(--grey);
 
 }
 
