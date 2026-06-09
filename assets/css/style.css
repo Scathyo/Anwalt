@@ -482,9 +482,9 @@ nav a{
 
 .about-content h2{
 
-   font-size:2.85rem;
+   font-size:2.75rem;
 
-   color:gold;
+   color:var(--gold);
    
    line-height:1.1;
 
@@ -521,8 +521,6 @@ nav a{
    font-weight:600;
 
    transition:0.3s;
-
-   align-self:center;
    
 }
 
@@ -549,5 +547,15 @@ nav a{
 .about-content li{
 
    margin-bottom:12px;
+
+}
+
+.about-actions{
+
+   display:flex;
+
+   flex-direction:column;
+
+   align-items:center;
 
 }
