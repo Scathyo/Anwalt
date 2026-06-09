@@ -66,7 +66,7 @@ p{
    NAVIGATION
 ========================== */
 
-header{
+.header{
 
     position:fixed;
 
@@ -86,7 +86,7 @@ header{
 
 }
 
-nav{
+.nav{
 
     width:90%;
     
@@ -122,7 +122,7 @@ nav{
    
 }
 
-nav ul{
+.nav ul{
 
     display:flex;
 
@@ -134,12 +134,18 @@ nav ul{
    
 }
 
-nav a{
+.nav a{
 
     text-decoration:none;
     color:var(--navy);
 
     font-weight:600;
+
+}
+
+.nav a:hover{
+
+    text-decoration:underline;
 
 }
 
@@ -755,9 +761,11 @@ nav a{
 
          color:white;
 
-         text-decoration:none;
+         text-decoration:underline;
 
          margin-bottom:10px;
+
+         font-size:0.85rem;
 
 }
 
@@ -766,6 +774,18 @@ nav a{
          color:var(--gold);
 
          transform:scale(1.05);
+
+}
+
+.footer-item p{
+
+         color:white;
+
+         text-decoration:none;
+
+         margin-bottom:10px;
+
+         font-size:0.85rem;
 
 }
 
