@@ -135,6 +135,8 @@ nav a{
 
     padding:80px 20px;
 
+    background:var(--grey)
+   
 }
 
 .hero-content{
@@ -178,7 +180,7 @@ nav a{
     grid-template-columns:1fr 1fr;
 
     gap:60px;
-
+   
     align-items:center;
 
     width:90%;
@@ -309,7 +311,7 @@ nav a{
 
     padding:120px 10%;
 
-    background:white;
+    background:var(--grey);
 
 }
 
