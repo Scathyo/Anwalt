@@ -17,6 +17,7 @@ body{
     color:#334155;
     background:#ffffff;
     line-height:1.6;
+    padding-top:80px;
 }
 
 /* ==========================
@@ -67,8 +68,21 @@ p{
 
 header{
 
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+   
     background:white;
+    
     border-bottom:1px solid #e5e7eb;
+
+    box-shadow:0 2px 15px rgba(0,0,0,0.05);
 
 }
 
