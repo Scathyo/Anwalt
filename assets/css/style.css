@@ -600,9 +600,9 @@ nav a{
 .contact-info h2,
 .contact-form h2{
          
-         font-size:2.5rem;
+         font-size:2.75rem;
 
-         margin-bottom:20px;
+         margin-bottom:25px;
 
 }
 
@@ -616,7 +616,7 @@ nav a{
 
 .contact-item{
 
-         margin-bottom:30px;
+         margin-bottom:40px;
 
 }
 
@@ -626,14 +626,14 @@ nav a{
 
          flex-direction:column;
 
-         gap:20px;
+         gap:5px;
 
 }
 
 .contact-form input,
 .contact-form textarea{
 
-         padding:15px;
+         padding:5px;
 
          border-radius:10px;
 
