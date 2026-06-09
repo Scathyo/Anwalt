@@ -75,25 +75,31 @@ header{
 nav{
 
     width:90%;
+    
     max-width:1200px;
 
     margin:auto;
 
     display:flex;
 
-    justify-content:space-between;
-
     align-items:center;
 
     padding:20px 0;
+
+    gap:50px;
 
 }
 
 .logo{
 
-    font-weight:bold;
-    color:var(--navy);
+   font-size:1.2rem;
+   
+   font-weight:750;
+    
+   color:var(--navy);
 
+   text-decoration:none;
+   
 }
 
 nav ul{
@@ -104,6 +110,8 @@ nav ul{
 
     list-style:none;
 
+   margin-left:auto;
+   
 }
 
 nav a{
@@ -112,6 +120,22 @@ nav a{
     color:var(--navy);
 
     font-weight:600;
+
+}
+
+.nav-btn{
+
+   background:var(--gold);
+
+   color:white;
+
+   padding:12px 24px;
+
+   border-radius:10px;
+
+   text-decoration:none;
+
+   fone-weight:600;
 
 }
 
