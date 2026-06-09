@@ -639,5 +639,20 @@ nav a{
 
          border:none;
 
+         width:100%;
+   
 }
 
+.contact-form textarea{
+
+         min-height:150px;
+
+         resize:vertical;
+
+}
+
+.contact-form label{
+
+         font-weight:600;
+
+}
