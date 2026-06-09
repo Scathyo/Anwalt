@@ -672,3 +672,37 @@ nav a{
          align-self:center;
 
 }
+
+.footer{
+
+         background:var(--navy);
+
+         color:white;
+
+         padding:40px 10%;
+
+         font-size:0.9rem;
+   
+}
+
+.footer-item h3{
+
+         color:var(--gold);
+
+         margin-bottom:15px;
+
+         font-size:1rem;
+
+}
+
+.footer-item a{
+
+         display:block;
+
+         color:white;
+
+         text-decoration:none;
+
+         margin-bottom:10px;
+
+}
