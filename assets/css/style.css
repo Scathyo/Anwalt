@@ -716,3 +716,11 @@ nav a{
          margin-bottom:10px;
 
 }
+
+.footer-item a:hover{
+
+         color:var(--gold);
+
+         transform:scale(1.05);
+
+}
