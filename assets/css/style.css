@@ -724,3 +724,21 @@ nav a{
          transform:scale(1.05);
 
 }
+
+.career-section{
+
+         background:var(--gold);
+
+         display:block;
+
+}
+
+.career-section h2{
+
+         color:var(--navy);
+
+         font-size:2.75rem;
+
+         font-height:600;
+
+}
