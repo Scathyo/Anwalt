@@ -685,6 +685,16 @@ nav a{
    
 }
 
+.footer-grid{
+
+         display:grid;
+
+         grid-template-columns:repeat(5,1fr);
+
+         gap:25px;
+
+}
+
 .footer-item h3{
 
          color:var(--gold);
