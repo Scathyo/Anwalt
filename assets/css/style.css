@@ -729,7 +729,7 @@ nav a{
 
          background:var(--gold);
 
-         display:block;
+         padding:120px 10%;
 
 }
 
@@ -739,6 +739,10 @@ nav a{
 
          font-size:2.75rem;
 
-         font-height:600;
+         font-weight:600;
+
+         margin-bottom:80px;
+
+         text-align:center;
 
 }
