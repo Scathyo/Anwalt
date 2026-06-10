@@ -23,7 +23,7 @@ html{
 body{
     font-family: Arial, sans-serif;
     color:#334155;
-    background:red;
+    background:#FFFFFF;
     line-height:1.6;
     padding-top:80px;
 }
@@ -286,82 +286,6 @@ nav a:hover{
     display:block;
 
 }
-/* ==========================
-   RESPONSIVE
-========================== */
-
-@media (max-width: 900px){
-
-    .hero-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    h1{
-
-        font-size:2.5rem;
-
-    }
-
-    .hero{
-
-        padding-top:50px;
-
-    }
-
-    .hero-left{
-
-        text-align:center;
-
-    }
-
-   nav{
-
-         flex-direction:column;
-
-         gap:15px;
-
-         width:100%;
-
-      }
-
-   nav ul{
-         
-         flex-direction:column;
-         
-         align-items:center;
-
-         gap:10px;
-
-      }
-
-   header{
-
-         position:static;
-
-      }
-
-   .about-section{
-
-      grid-template-columns:1fr;
-
-   }
-
-   .contact-grid{
-
-      grid-template-columns:1fr;
-
-   }
-
-   .footer-grid{
-
-      grid-template-columns:1fr;
-
-   }
-
-}
-   
 
 /* ==========================
    TRUST BAR
@@ -937,5 +861,81 @@ nav a:hover{
          font-size:1.2rem;
 
          margin-bottom:8px;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width: 900px){
+
+    .hero-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    h1{
+
+        font-size:2.5rem;
+
+    }
+
+    .hero{
+
+        padding-top:50px;
+
+    }
+
+    .hero-left{
+
+        text-align:center;
+
+    }
+
+   nav{
+
+         flex-direction:column;
+
+         gap:15px;
+
+         width:100%;
+
+      }
+
+   nav ul{
+         
+         flex-direction:column;
+         
+         align-items:center;
+
+         gap:10px;
+
+      }
+
+   header{
+
+         position:static;
+
+      }
+
+   .about-section{
+
+      grid-template-columns:1fr;
+
+   }
+
+   .contact-grid{
+
+      grid-template-columns:1fr;
+
+   }
+
+   .footer-grid{
+
+      grid-template-columns:1fr;
+
+   }
 
 }
