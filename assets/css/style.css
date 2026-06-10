@@ -116,13 +116,13 @@ nav{
 
     letter-spacing:1px;
 
-    font-size:1rem
+    font-size:1rem;
 
     text-transform:uppercase;
    
 }
 
-.nav ul{
+nav ul{
 
     display:flex;
 
@@ -134,7 +134,7 @@ nav{
    
 }
 
-.nav a{
+nav a{
 
     text-decoration:none;
     color:var(--navy);
@@ -143,7 +143,7 @@ nav{
 
 }
 
-.nav a:hover{
+nav a:hover{
 
     text-decoration:underline;
 
