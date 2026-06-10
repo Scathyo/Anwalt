@@ -864,6 +864,22 @@ nav a:hover{
 
 }
 
+.service-list{
+
+   list-style:none;
+
+   max-width:600px;
+
+   margin:40px auto;
+
+}
+
+.service-list li{
+
+   margin-bottom:15px;
+
+}
+
 /* ==========================
    RESPONSIVE
 ========================== */
@@ -935,6 +951,20 @@ nav a:hover{
    .footer-grid{
 
       grid-template-columns:1fr;
+
+   }
+
+      .service-list{
+
+      max-width:100%;
+
+      padding:0 20px;
+
+   }
+
+   .service-list li{
+
+      font-size:1rem;
 
    }
 
