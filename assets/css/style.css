@@ -306,10 +306,22 @@ nav a:hover{
 
          flex-direction:column;
 
+         gap:15px;
+
+      }
+
+      nav ul{
+         
+         flex-direction:column;
+         
+         align-items:center;
+
          gap:10px;
 
       }
+
 }
+   
 
 /* ==========================
    TRUST BAR
