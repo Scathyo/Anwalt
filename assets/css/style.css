@@ -302,6 +302,13 @@ nav a:hover{
 
     }
 
+      nav{
+
+         flex-direction:column;
+
+         gap:20px;
+
+      }
 }
 
 /* ==========================
