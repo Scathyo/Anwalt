@@ -298,7 +298,7 @@ nav a:hover{
 
     .hero{
 
-        padding-top:200px;
+        padding-top:150px;
 
     }
 
@@ -308,7 +308,7 @@ nav a:hover{
 
     }
 
-      nav{
+   nav{
 
          flex-direction:column;
 
@@ -316,7 +316,7 @@ nav a:hover{
 
       }
 
-      nav ul{
+   nav ul{
          
          flex-direction:column;
          
@@ -326,11 +326,33 @@ nav a:hover{
 
       }
 
-      header{
+   header{
 
          position:static;
 
       }
+
+   .about-section{
+   
+      display:grid;
+
+      grid-template-columns:1fr;
+
+   }
+
+   .contact-grid{
+
+      display:grid;
+
+      grid-template-columns:1fr;
+
+   }
+
+   footer{
+
+      flex-direction:column;
+
+   }
 
 }
    
