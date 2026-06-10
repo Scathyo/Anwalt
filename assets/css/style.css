@@ -333,8 +333,6 @@ nav a:hover{
       }
 
    .about-section{
-   
-      display:grid;
 
       grid-template-columns:1fr;
 
@@ -342,15 +340,13 @@ nav a:hover{
 
    .contact-grid{
 
-      display:grid;
-
       grid-template-columns:1fr;
 
    }
 
-   footer{
+   .footer-grid{
 
-      flex-direction:column;
+      grid-template-columns:1fr;
 
    }
 
