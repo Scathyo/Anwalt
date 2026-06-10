@@ -296,6 +296,12 @@ nav a:hover{
 
     }
 
+    .hero{
+
+        padding-top:200px;
+
+    }
+
     .hero-left{
 
         text-align:center;
@@ -317,6 +323,12 @@ nav a:hover{
          align-items:center;
 
          gap:10px;
+
+      }
+
+      header{
+
+         position:static;
 
       }
 
