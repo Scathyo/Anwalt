@@ -151,7 +151,8 @@ nav a{
 
 }
 
-nav a:hover{
+nav a:hover,
+nav a:active{
 
     text-decoration:underline;
 
@@ -905,31 +906,6 @@ nav a:hover{
    
    margin-top:40px;
 
-}
-
-.active{
-  
-   position:relative;
-
-}
-
-.active::after{
-
-   content:"";
-
-   position:absolute;
-
-   left:0;
-
-   bottom:-8px;
-
-   width:100%;
-
-   height:3px;
-
-   background:var(--navy);
-
-   border-radius:10px;
 }
 
 .page-image{
