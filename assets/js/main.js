@@ -72,6 +72,8 @@ images.forEach(image => {
 
       modalImage.alt = image.alt;
 
+      document.body.style.overflow = "hidden";
+      
    });
 
    });
