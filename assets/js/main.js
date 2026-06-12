@@ -55,7 +55,10 @@ const modalImage = document.querySelector(".modal-image");
 // Schließen-Button auswählen
 const closeModal = document.querySelector(".close-modal");
 
-// Klick auf Bild
+//Prüfung ob modal, modalImage,closeModal vorhanden
+if(modal && modalImage && closeModal){
+
+   // Klick auf Bild
 images.forEach(image => {
 
    image.addEventListener("click", () => {
