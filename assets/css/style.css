@@ -990,12 +990,6 @@ nav a.active{
 
       }
 
-   header{
-
-         position:static;
-
-      }
-
    .about-section{
 
       grid-template-columns:1fr;
