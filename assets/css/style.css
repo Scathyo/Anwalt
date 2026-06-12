@@ -1032,6 +1032,41 @@ nav a.active{
 
 }
 
+.success-popup{
+
+   position:fixed;
+
+   bottom:30px;
+
+   right:30px;
+
+   background:var(--navy);
+
+   color:white;
+
+   padding:20px 30px;
+
+   border-radius:12px;
+
+   box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+   opacity:0;
+
+   visibility:hidden;
+
+   transition:.3s ease;
+
+   z-index:9999;
+
+}
+
+.success-popup.show{
+
+   opacity:1;
+
+   visibility:visible;
+
+}
 
 /* ==========================
    RESPONSIVE
