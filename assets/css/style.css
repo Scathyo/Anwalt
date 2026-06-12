@@ -954,7 +954,7 @@ nav a.active{
 
 .image-modal{
 
-   display:none;
+   display:flex;
 
    position:fixed;
 
@@ -968,11 +968,21 @@ nav a.active{
 
    z-index:9999;
 
+   opacity:0;
+
+   visibility:hidden;
+
+   transition:opacity .3s ease;
+
+   cursor:pointer;
+
 }
 
 .image-modal.active{
 
-   display:flex;
+   opacity:1;
+
+   visibility:visible;
 
 }
 
@@ -983,6 +993,18 @@ nav a.active{
    max-height:90%;
 
    border-radius:15px;
+
+   transform:scale(.9);
+
+   transition:transform .3s ease;
+
+   cursor:default;
+
+}
+
+.image-modal.active .modal-image{
+
+   transform:scale(1);
 
 }
 
@@ -1163,8 +1185,17 @@ nav a.active{
    font-size:0.9rem;
    padding:8px 16px;
 
-}
+   }
+
+   .close-modal{
+
+   top:10px;
+
+   right:20px;
+
+   font-size:2.5rem;
+
+   }
 
 }
-
 
