@@ -958,7 +958,11 @@ nav a.active{
 
     .hero-grid{
 
-        grid-template-columns:1fr;
+      display:grid; 
+       
+      grid-template-columns:1fr;
+
+      gap:20px;
 
     }
 
@@ -974,7 +978,8 @@ nav a.active{
 
     }
 
-    .hero-left{
+    .hero-left,
+    .hero-content{
 
         text-align:center;
 
@@ -1052,4 +1057,21 @@ nav a.active{
       gap:15px;
 
    }
+
+   .page-image{
+
+      display:flex;
+
+      justify-content:center;
+
+   }
+
+   .page-image img{
+
+      width:100%;
+
+      max-width:500px;
+
+   }
+
 }
