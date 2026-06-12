@@ -936,6 +936,20 @@ nav a.active{
 
 }
 
+.hamburger{
+
+   display:none;
+
+   background:none;
+
+   border:none;
+
+   font-size:2rem;
+
+   cursor:pointer;
+
+}
+
 /* ==========================
    RESPONSIVE
 ========================== */
@@ -976,16 +990,6 @@ nav a.active{
 
       }
 
-   nav ul{
-         
-         flex-direction:column;
-         
-         align-items:center;
-
-         gap:10px;
-
-      }
-
    header{
 
          position:static;
@@ -1010,7 +1014,7 @@ nav a.active{
 
    }
 
-      .service-list{
+   .service-list{
 
       max-width:100%;
 
@@ -1024,4 +1028,34 @@ nav a.active{
 
    }
 
+   
+   .hamburger{
+
+      display:block;
+
+   }
+
+   .nav-links{
+
+      display:none;
+
+      flex-direction:column;
+
+      align-items:center;
+
+      gap:10px;
+
+   }
+
+   .nav-links.active{
+
+      display:flex;
+
+      flex-direction:column;
+
+      align-items:center;
+
+      gap:15px;
+
+   }
 }
