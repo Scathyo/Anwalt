@@ -1089,6 +1089,25 @@ nav a.active{
       display:none;
 
    }
+
+   .hero-content h1{
+
+      font-size:2.5rem;
+
+   }
+   
+   .hero-grid{
+
+   border:3px solid red;
+
+   }
+
+   .hero-content{
+
+   border:3px solid blue;
+
+   }      
+
 }
 
 
