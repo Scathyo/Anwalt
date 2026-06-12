@@ -952,6 +952,62 @@ nav a.active{
 
 }
 
+.image-modal{
+
+   display:none;
+
+   position:fixed;
+
+   inset:0;
+
+   background:rgba(0,0,0,.85);
+
+   justify-content:center;
+
+   align-items:center;
+
+   z-index:9999;
+
+}
+
+.image-modal.active{
+
+   display:flex;
+
+}
+
+.modal-image{
+
+   max-width:90%;
+
+   max-height:90%;
+
+   border-radius:15px;
+
+}
+
+.close-modal{
+
+   position:absolute;
+
+   top:20px;
+
+   right:30px;
+
+   font-size:3rem;
+
+   color:white;
+
+   cursor:pointer;
+
+}
+
+.page-image img{
+
+   cursor:pointer;
+
+}
+
 /* ==========================
    RESPONSIVE
 ========================== */
