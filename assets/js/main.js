@@ -74,6 +74,8 @@ images.forEach(image => {
 
       document.body.style.overflow = "hidden";
       
+      console.log(document.body.style.overflow);
+      
    });
 
    });
