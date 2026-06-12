@@ -987,11 +987,11 @@ nav a.active{
 
    nav{
 
-         flex-direction:column;
+         display:flex;
 
-         gap:15px;
+         justify-content:space-between;
 
-         width:100%;
+         align-items:center;
 
       }
 
