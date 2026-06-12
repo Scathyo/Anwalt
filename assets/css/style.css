@@ -993,6 +993,8 @@ nav a.active{
 
          align-items:center;
 
+         padding:0 20px;
+
       }
 
    .about-section{
@@ -1076,4 +1078,11 @@ nav a.active{
 
    }
 
+   body{
+
+      overflow-x:hidden;
+
+   }
 }
+
+
