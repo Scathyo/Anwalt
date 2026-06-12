@@ -351,25 +351,31 @@ Beratung vereinbaren
 
       <h2>Nachricht senden</h2>
 
-      <form>
+                  <form action="https://formspree.io/f/xkoaqbzl" method="POST">
 
-       <label for="name">Name</label>
-       <input type="text" id="name">
+                  <label for="name">Name</label>
+            
+                  <input type="text" id="name" name="name" required placeholder="Max Mustermann">
 
-       <label for="email">E-Mail</label>
-       <input type="email" id="email">
+                  <label for="email">E-Mail</label>
+                  
+                  <input type="email" id="email" name="email" required placeholder="Max-Mustermann@muster.de>
 
-       <label for="phone">Telefon</label>
-       <input type="tel" id="phone">
+                  <label for="phone">Telefon</label>
+   
+                  <input type="tel" id="phone" name="phone" required placeholder="+49 123 4567890>
 
-       <label for="message">Nachricht</label>
-       <textarea id="message"></textarea>
+                  <label for="message">Nachricht</label>
+                  
+                  <textarea id="message" name="message" required placeholder="Beschreiben Sie kurz Ihr Anliegen.></textarea>
 
-       <button type="submit" class="about-btn">
-          Nachricht senden!
-       </button>
-       
-      </form>
+                  <button type="submit" class="about-btn">
+                  
+                  Nachricht senden!
+   
+                  </button>
+
+         </form>
       
       </div>
 
