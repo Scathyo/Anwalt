@@ -115,32 +115,4 @@ document.addEventListener("keydown", (event) => {
 
 });
 
-// Elemente mit Fade-In auswählen
-const fadeElements = document.querySelectorAll(".fade-in");
-
-// Beobachter erstellen
-const observer = new IntersectionObserver((entries) => {
-
-   entries.forEach(entry => {
-
-      if(entry.isIntersecting){
-
-         entry.target.classList.add("show");
-
-      }
-
-   });
-
-}, {
-
-   threshold:0.15
-
-});
-
-// Alle Elemente beobachten
-fadeElements.forEach(element => {
-
-   observer.observe(element);
-
-});
 
