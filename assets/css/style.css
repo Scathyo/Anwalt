@@ -170,7 +170,7 @@ nav a.active{
 
    text-decoration:none;
 
-   fone-weight:600;
+   font-weight:600;
 
 }
 
@@ -1081,6 +1081,12 @@ nav a.active{
    body{
 
       overflow-x:hidden;
+
+   }
+
+   .nav-btn{
+
+      display:none;
 
    }
 }
