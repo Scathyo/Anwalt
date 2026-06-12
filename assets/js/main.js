@@ -22,13 +22,16 @@ if (hamburger && navLinks) {
       //Symbol für geöffnetes Menü anzeigen
       hamburger.textContent = "✕";
 
-   }else{
+   }
+   else{
       //Symbol für geschlossenes Menü
       hamburger.textContent = "☰";
 
    }
 
-});
+   }
+
+)};
 
 // Menü nach Klick auf einen Link schließen
 navItems.forEach(item => {
@@ -71,7 +74,9 @@ images.forEach(image => {
 
    });
 
-});
+   });
+
+}
 
 // Klick auf X
 closeModal.addEventListener("click", () => {
