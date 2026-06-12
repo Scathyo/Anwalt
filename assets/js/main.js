@@ -96,3 +96,14 @@ modal.addEventListener("click", (event) => {
 
 });
 
+// Bild mit ESC-Taste schließen
+document.addEventListener("keydown", (event) => {
+
+   if(event.key === "Escape"){
+
+      modal.classList.remove("active");
+
+   }
+
+});
+
