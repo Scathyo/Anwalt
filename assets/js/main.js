@@ -72,9 +72,7 @@ images.forEach(image => {
 
       modalImage.alt = image.alt;
 
-      document.body.style.overflow = "hidden";
-      
-      console.log(document.body.style.overflow);
+      document.documentElement.style.overflow = "hidden";
       
    });
 
@@ -87,6 +85,8 @@ closeModal.addEventListener("click", () => {
 
    modal.classList.remove("active");
 
+   document.documentElement.style.overflow = "";
+
 });
 
 // Klick auf dunklen Hintergrund
@@ -95,6 +95,8 @@ modal.addEventListener("click", (event) => {
    if(event.target === modal){
 
       modal.classList.remove("active");
+
+      document.documentElement.style.overflow = "";
 
    }
 
@@ -107,6 +109,8 @@ document.addEventListener("keydown", (event) => {
 
       modal.classList.remove("active");
 
+      document.documentElement.style.overflow = "";
+      
    }
 
 });
