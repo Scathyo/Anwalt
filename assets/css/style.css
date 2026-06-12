@@ -1036,19 +1036,21 @@ nav a.active{
 
    position:fixed;
 
-   bottom:30px;
+   inset:0;
 
-   right:30px;
+   display:flex;
 
-   background:var(--navy);
+   flex-direction:column;
+
+   justify-content:center;
+
+   align-items:center;
+
+   text-align:center;
+
+   background:rgba(0,0,0,.75);
 
    color:white;
-
-   padding:20px 30px;
-
-   border-radius:12px;
-
-   box-shadow:0 10px 30px rgba(0,0,0,.2);
 
    opacity:0;
 
@@ -1057,6 +1059,8 @@ nav a.active{
    transition:.3s ease;
 
    z-index:9999;
+
+   padding:20px;
 
 }
 
