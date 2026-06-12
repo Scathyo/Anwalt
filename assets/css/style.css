@@ -980,7 +980,8 @@ nav a.active{
     }
 
    nav{
-
+         min-height:80px;
+      
          display:flex;
 
          justify-content:space-between;
