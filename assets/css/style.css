@@ -1002,9 +1002,11 @@ nav a.active{
 
 }
 
-.page-image img{
+.page-image img,
+.hero-portrait img,
+.about-image img{
 
-   cursor:pointer;
+   cursor:zoom-in;
 
 }
 
