@@ -115,4 +115,64 @@ document.addEventListener("keydown", (event) => {
 
 });
 
+// Formular auswählen
+const form = document.querySelector("#contact-form");
 
+// Popup auswählen
+const successPopup = document.querySelector(".success-popup");
+
+// Prüfen ob Formular vorhanden
+if(form && successPopup){
+
+   form.addEventListener("submit", async (event) => {
+
+      // Normale Weiterleitung verhindern
+      event.preventDefault();
+
+      // Formulardaten sammeln
+      const formData = new FormData(form);
+
+      try{
+
+         // Daten an Formspree senden
+         const response = await fetch(form.action, {
+
+            method: "POST",
+
+            body: formData,
+
+            headers: {
+
+               Accept: "application/json"
+
+            }
+
+         });
+
+         // Erfolgreich versendet?
+         if(response.ok){
+
+            // Popup anzeigen
+            successPopup.classList.add("show");
+
+            // Formular leeren
+            form.reset();
+
+            // Popup nach 4 Sekunden ausblenden
+            setTimeout(() => {
+
+               successPopup.classList.remove("show");
+
+            }, 4000);
+
+         }
+
+      }catch(error){
+
+         console.error(error);
+
+      }
+
+   });
+
+}
