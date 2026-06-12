@@ -158,6 +158,16 @@ if(form && successPopup){
             // Formular leeren
             form.reset();
 
+            // Scrollt zurück nach oben
+
+            window.scrollTo({
+
+            top:0,
+
+            behavior:"smooth"
+
+            });
+            
             // Popup nach 4 Sekunden ausblenden
             setTimeout(() => {
 
