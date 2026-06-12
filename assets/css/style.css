@@ -1044,6 +1044,8 @@ nav a.active{
 
       gap:10px;
 
+      transition:all .3s ease;
+
    }
 
    .nav-links.active{
